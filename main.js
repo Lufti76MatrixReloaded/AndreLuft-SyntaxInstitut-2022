@@ -1,9 +1,10 @@
 function helloWorld() {
-    // This line prints a simple message
-    console.log("Hello World");
+    console.log("Calling the function  ");
 
-    // Return value
-
+    // Function call
+    helloWorld();
+    
+    //Return value
     return 0;
 }
 
